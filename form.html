@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Solitreo&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="./index.html" class="logo">Online Library</a>
+
+      <ul class="nav--link">
+        <a href="./index.html"><li>Home</li></a>
+        <a href="./books.html"><li>Books</li></a>
+      </ul>
+
+      <div class="search">
+        <input placeholder="Search" />
+        <ion-icon name="search-outline"></ion-icon>
+        <ion-icon name="bag-outline"></ion-icon>
+      </div>
+    </nav>
+
+    <div class="billing">
+      <div class="form">
+        <h6 style="font-size: 14px">Billing Address</h6>
+        <div class="first-form">
+          <div>
+            <label for="fname">First name</label><br />
+            <input
+              class="form--input"
+              type="text"
+              id="fname"
+              name="fname"
+            /><br />
+          </div>
+          <div>
+            <label for="lname">Last name</label><br />
+            <input
+              class="form--input"
+              type="text"
+              id="lname"
+              name="lname"
+            /><br />
+          </div>
+          <div>
+            <label for="lname">Contact Number</label><br />
+            <input
+              class="form--input"
+              type="text"
+              id="lname"
+              name="lname"
+            /><br />
+          </div>
+        </div>
+
+        <div
+          style="
+            margin-top: 1rem;
+            border-bottom: 2px solid #e0dede;
+            padding-bottom: 2rem;
+          "
+        >
+          <label for="Address">Address</label><br />
+          <input
+            class="form--input"
+            placeholder="Ex. 200 Private Road, Mandaluyong City"
+            type="text"
+            id="Address"
+          /><br />
+        </div>
+
+        <div style="display: grid">
+          <h3>Payment</h3>
+
+          <select>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Paypal">Paypal</option>
+            <option value="Paymaya">Paymaya</option>
+            <option value="Gcash">Gcash</option>
+          </select>
+        </div>
+
+        <div class="first-form" style="margin-top: 2rem">
+          <div>
+            <label for="nameCard">Name of card</label><br />
+            <input
+              class="form--input"
+              type="text"
+              id="nameCard"
+              name="nameCard"
+            /><br />
+            <h6 style="margin-top: 10px; font-weight: 300">
+              Full name as displayed on card
+            </h6>
+          </div>
+          <div>
+            <label for="cardNumber">Credit card number</label><br />
+            <input
+              class="form--input"
+              type="text"
+              id="cardNumber"
+              name="cardNumber"
+            /><br />
+          </div>
+        </div>
+
+        <div
+          class="first-form"
+          style="border-bottom: 2px solid #e0dede; padding-bottom: 2rem"
+        >
+          <div>
+            <label for="expiration">Expiration</label><br />
+            <input
+              class="form--input"
+              type="text"
+              id="expiration"
+              name="expiration"
+            /><br />
+          </div>
+          <div>
+            <label for="ccv">CCV</label><br />
+            <input class="form--input" type="text" id="ccv" name="ccv" /><br />
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 2rem">
+          <a href="./books.html">
+            <button class="btn" type="button" style="background-color: #4f4d4d">
+              Back
+            </button>
+          </a>
+          <button class="btn" type="button" style="background-color: green">
+            PLace Order
+          </button>
+        </div>
+      </div>
+
+      <!-- PRODUCT -->
+      <div class="cart">
+        <h6 style="font-size: 14px; margin-bottom: 0rem">Your Cart</h6>
+
+        <div class="product">
+          <div class="product--descp">
+            <h4 style="font-size: 14px; margin: 0rem">
+              Product Name
+              <span style="display: block; font-size: 10px; color: #999"
+                >brief description</span
+              >
+            </h4>
+            <h5>$8</h5>
+          </div>
+          <div class="product--descp">
+            <h4 style="font-size: 14px; margin: 0rem">
+              Second Product
+              <span style="display: block; font-size: 10px; color: #999"
+                >brief description</span
+              >
+            </h4>
+            <h5>$45</h5>
+          </div>
+          <div class="product--descp">
+            <h4 style="font-size: 14px; margin: 0rem; color: #999">
+              Promo Code
+            </h4>
+            <h5>$-11</h5>
+          </div>
+
+          <div class="product--descp" style="border-bottom: none">
+            <h4 style="font-size: 14px; margin: 0rem">Total</h4>
+            <h5>$53</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+html {
+  background: #f4f3ee;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+input {
+  padding: 0.5rem;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a li {
+  color: #444;
+}
+
+ion-icon {
+  font-size: 1.2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Solitreo", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #191919;
+}
+
+.search {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.search input {
+  height: 1.4rem;
+  width: 12rem;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav--link {
+  display: flex;
+  gap: 2rem;
+  color: #444;
+}
+
+/* HOME */
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 12rem;
+  align-items: center;
+}
+
+.release {
+  margin-top: 5rem;
+}
+
+.view-more {
+  transition: all 0.3s ease-in-out;
+}
+
+.view-more:hover {
+  color: #fff !important;
+  background-color: #0466c8;
+}
+
+.sons {
+  width: 27rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sons img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* BOOKS */
+.section-books {
+  padding: 2rem 6rem;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.books--box {
+  margin-top: 6rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 9px;
+}
+
+.book-cover {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.books--box div img {
+  height: inherit;
+  width: inherit;
+}
+
+.details {
+  height: auto !important;
+  margin-top: 1rem;
+  display: grid;
+  row-gap: 4px;
+  padding: 1rem;
+}
+
+.info-text {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin: 0rem !important;
+}
+
+/* FORM */
+.billing {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  gap: 2rem;
+  padding: 1rem 6rem;
+}
+
+.form {
+  height: 40rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border-radius: 0.6rem;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+}
+
+.first-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.form--input {
+  width: 100%;
+}
+
+.cart {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border-radius: 0.6rem;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+  height: 20rem;
+}
+
+.product--descp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #999;
+  padding: 4px 4px 1rem 4px;
+  height: 2rem;
+  margin-top: 1rem;
+  width: 100%;
+}
